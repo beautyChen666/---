@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>项目二-bootstrap Start</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../fonticon/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/startBoostrap.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <!--<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+    <!--<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>-->
+    <![endif]-->
+</head>
+<body class="posR" data-spy="scroll" data-target=".navbar-example">
+<!--导航栏-->
+<nav class="navbar navbar-example navbar-fixed-top" role="navigation" id="mynav">
+    <div class="container">
+        <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                    Menu
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+            <a class="navbar-brand logoC" href="#">Start Bootstrap</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right " role="tablist">
+                <li class="hidden active">
+                    <a class="page-scroll" href="#header-page"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">Team</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+<!--页面content-->
+<div>
+    <!--第一页,也是默认的页面-->
+    <section class="header" id="header-page">
+            <div class="jumbotron">
+                <div class="container">
+                <div class="header-tip">
+                    <h2 class="text-capitalize welP"><em>welcome to our studio!</em></h2>
+                    <h1 class="text-uppercase meetP">it's nice to meet you</h1>
+                    <p><a class="btn btn-warning btn-lg jumbA" href="#" role="button">TELL ME MORE</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--这是services页面-->
+    <section id="services">
+        <div class="container">
+
+    <!--services section part one -->
+            <div class="row text-center partFirst">
+                <div class="col-lg-12">
+                    <h1 class="text-uppercase "><strong>services</strong></h1>
+                    <h4 class="colorf"><em>Lorem ipsum dolor sit amet consectetur.</em></h4>
+                </div>
+            </div>
+
+    <!-- section part two -->
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-4">
+                    <div class="thumbnail noBorder">
+                        <img src="img/shoppcart.png" alt="loading..." title="购物车">
+                        <div class="caption">
+                            <h3>E-Commerce</h3>
+                            <p class="colorf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xs-12 col-md-4">
+                    <div class="thumbnail noBorder">
+                        <img src="img/computer.png" alt="loading..." title="电脑">
+                        <div class="caption">
+                            <h3>Responsive Design</h3>
+                            <p class="colorf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xs-12 col-md-4">
+                    <div class="thumbnail noBorder">
+                        <img src="img/password.png" alt="loading..." title="密码">
+                        <div class="caption">
+                            <h3>Web Security</h3>
+                            <p class="colorf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 这是portfolio页面 -->
+    <section id="portfolio">
+        <div class="container">
+
+            <!--portfolio section part one -->
+            <div class="row text-center partFirst">
+                <div class="col-lg-12 ">
+                    <h1 class="text-uppercase "><strong>portfolio</strong></h1>
+                    <h4 class="colorf"><em>Lorem ipsum dolor sit amet consectetur.</em></h4>
+                </div>
+            </div>
+
+            <!-- portfolio section part two -->
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-4 text-center pro-col">
+                    <div class="thumbnail posR pro-img">
+                    <img src="img/portfolio/roundicons.png" alt="loading..." title="roundicons">
+                    <a data-target=".myModal" data-toggle="modal" class="pro-shade"><span class="glyphicon glyphicon-plus posA"></span></a>
+                    </div>
+                    <div class="caption pro-tip">
+                        <h4>Round Icons</h4>
+                        <p class="colorf"><em>Graphic Design</em></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center pro-col">
+                    <div class="thumbnail posR pro-img">
+                    <img src="img/portfolio/startup-framework.png" alt="loading" title="startup-framework">
+                    <a data-target=".myModal" data-toggle="modal" class="pro-shade"><span class="glyphicon glyphicon-plus posA"></span></a>
+                    </div>
+                    <div class="caption pro-tip">
+                        <h4>Startup Framework</h4>
+                        <p class="colorf"><em>Website Design</em></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center pro-col">
+                    <div class="thumbnail posR pro-img">
+                    <img src="img/portfolio/treehouse.png" alt="loading..." title="treehouse">
+                    <a data-target=".myModal" data-toggle="modal" class="pro-shade"><span class="glyphicon glyphicon-plus posA"></span></a>
+                    </div>
+                    <div class="caption pro-tip">
+                        <h4>Treehouse</h4>
+                        <p class="colorf"><em>Graphic Design</em></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center pro-col">
+                    <div class="thumbnail posR pro-img">
+                    <img src="img/portfolio/golden.png" alt="loading..." title="golden">
+                    <a data-target=".myModal" data-toggle="modal" class="pro-shade"><span class="glyphicon glyphicon-plus posA"></span></a>
+                    </div>
+                    <div class="caption pro-tip">
+                        <h4>Golden</h4>
+                        <p class="colorf"><em>Graphic Design</em></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center pro-col">
+                    <div class="thumbnail posR pro-img">
+                    <img src="img/portfolio/escape.png" alt="loading..." title="escape">
+                    <a data-target=".myModal" data-toggle="modal" class="pro-shade"><span class="glyphicon glyphicon-plus posA"></span></a>
+                    </div>
+                    <div class="caption pro-tip">
+                        <h4>Escape</h4>
+                        <p class="colorf"><em>Graphic Design</em></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 text-center pro-col">
+                    <div class="thumbnail posR pro-img">
+                    <img src="img/portfolio/dreams.png" alt="loading..." title="dreams">
+                    <a data-target=".myModal" data-toggle="modal" class="pro-shade"><span class="glyphicon glyphicon-plus posA"></span></a>
+                    </div>
+                    <div class="caption pro-tip">
+                        <h4>Dreams</h4>
+                        <p class="colorf"><em>Graphic Design</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 这是about页面 -->
+    <section id="about">
+        <div class="container">
+
+            <!--about section part one -->
+            <div class="row text-center partFirst">
+                <div class="col-lg-12">
+                    <h1 class="text-uppercase "><strong>about</strong></h1>
+                    <h4 class="colorf"><em>Lorem ipsum dolor sit amet consectetur.</em></h4>
+                </div>
+            </div>
+
+            <!--about section part two -->
+            <div class="about-wrap posR col-lg-12">
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-sm-7 text-right">
+                        <div class="about-img posR fr">
+                             <img src="img/about/1.jpg" alt="loading..." title="about" class="img-circle">
+                        </div>
+                        <div class="dlb">
+                            <h4>2009-2011</h4>
+                            <h4>Our Humble Beginnings</h4>
+                            <p class="colorf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="col-xs-12 col-md-7 col-sm-7 col-sm-offset-5 col-md-offset-5 text-left">
+                         <div class="about-img posR fl about-img2">
+                            <img src="img/about/2.jpg" alt="loading..." title="about" class="img-circle">
+                         </div>
+                         <div class="dlb">
+                            <h4>MARCH 2011</h4>
+                            <h4>An Agency is Born</h4>
+                            <p class="colorf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="col-xs-12 col-md-7 col-sm-7 text-right">
+                         <div class="about-img posR fr">
+                             <img src="img/about/3.jpg" alt="loading..." title="about" class="img-circle">
+                         </div>
+                         <div class="dlb">
+                            <h4>DECEMBER 2012</h4>
+                            <h4>Transition to Full Service</h4>
+                            <p class="colorf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                      <div class="col-xs-12 col-md-7 col-sm-7 col-sm-offset-5 col-md-offset-5 text-left">
+                          <div class="about-img posR fl about-img2">
+                             <img src="img/about/4.jpg" alt="loading..." title="about" class="img-circle">
+                          </div>
+                          <div class="dlb">
+                            <h4>JULY 2014</h4>
+                            <h4>Phase Two Expansion</h4>
+                            <p class="colorf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12 img-circle col-md-7 col-sm-7 col-sm-offset-5 col-md-offset-5 posR aboutLastD text-center about-img posR">
+                    <p class="h4 posR"><strong>BE PART OF OUR STORY!</strong></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 这是team页面 -->
+    <section id="team">
+        <div class="container">
+            <!--about section part one -->
+             <div class="row text-center partFirst">
+                <div class="col-lg-12 col-xs-12 ">
+                    <h1 class="text-uppercase "><strong>OUR AMAZING TEAM</strong></h1>
+                    <h4 class="colorf"><em>Lorem ipsum dolor sit amet consectetur.</em></h4>
+                </div>
+            </div>
+            <!--about section part two -->
+            <div class="row">
+                <div class="col-sm-4 text-center col-xs-12">
+                    <img class="img-circle" src="img/team/1.jpg" alt="loading..." title="team">
+                    <h4>Kay Garland</h4>
+                    <p>Lead Designer</p>
+                    <p>
+                        <span class="faIcon"><a href="#"><i class="fa fa-twitter"></i></a></span>
+                        <span class="faIcon"><a href="#"><i class="fa fa-facebook"></i></a></span>
+                        <span class="faIcon"><a href="#"><i class="fa fa-linkedin"></i></a></span>
+                    </p>
+                </div>
+                <div class="col-sm-4 text-center col-xs-12 ">
+                    <img class="img-circle" src="img/team/2.jpg" alt="loading..." title="team">
+                    <h4>Larry Parker</h4>
+                    <p>Lead Marketer</p>
+                    <p>
+                        <span class="faIcon"><a href="#"><i class="fa fa-twitter"></i></a></span>
+                        <span class="faIcon"><a href="#"><i class="fa fa-facebook"></i></a></span>
+                        <span class="faIcon"><a href="#"><i class="fa fa-linkedin"></i></a></span>
+                    </p>
+                </div>
+                <div class="col-sm-4 text-center col-xs-12">
+                    <img class="img-circle" src="img/team/3.jpg" alt="loading..." title="team">
+                    <h4>Diana Pertersen</h4>
+                    <p>Diana Pertersen</p>
+                    <p>
+                        <span class="faIcon"><a href="#"><i class="fa fa-twitter"></i></a></span>
+                        <span class="faIcon"><a href="#"><i class="fa fa-facebook"></i></a></span>
+                        <span class="faIcon"><a href="#"><i class="fa fa-linkedin"></i></a></span>
+                    </p>
+                </div>
+            </div>
+            <!--about section part three -->
+            <div class="row">
+                <div class="col-xs-12 col-lg-8 text-center col-lg-offset-2 teamLastD colorf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 这是logo 区域 -->
+    <div class="logos">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-3 col-sm-6">
+                    <a href="#"><img src="img/logos/envato.jpg" alt="loading" title="logo"></a>
+                </div>
+                 <div class="col-xs-12 col-md-3 col-sm-6">
+                    <a href="#"><img src="img/logos/designmodo.jpg" alt="loading" title="logo"></a>
+                </div>
+                 <div class="col-xs-12 col-md-3 col-sm-6">
+                    <a href="#"><img src="img/logos/themeforest.jpg" alt="loading" title="logo"></a>
+                </div>
+                 <div class="col-xs-12 col-md-3 col-sm-6">
+                    <a href="#"><img src="img/logos/creative-market.jpg" alt="loading" title="logo"></a>
+                </div>
+            </div>
+        </div>
+    </div class="lgos">
+
+    <!-- 这是contact页面 -->
+    <section id="contact">
+        <div class="container">
+             <!--contact section part one -->
+             <div class="row text-center partFirst">
+                <div class="col-lg-12">
+                    <h1 class="text-uppercase" style="color:#fff"><strong>contact us</strong></h1>
+                    <h4 class="colorf"><em>Lorem ipsum dolor sit amet consectetur.</em></h4>
+                </div>
+            </div>
+             <!--contact section part two -->
+            <div class="row">
+            <form role="form" action="" name="" method="">
+                <div class="col-md-6"> <!-- form sign  -->
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="YOUR NAME">
+                        <p class="nameTip formTip"></p>
+                    </div>
+                     <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="YOUR EAMIL">
+                        <p class="eamilTip formTip"></p>
+                    </div>
+                     <div class="form-group">
+                        <input type="tel" class="form-control" id="tel" placeholder="YOUR PHONE">
+                        <p class="telTip formTip"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea  class="form-control" id="message" placeholder="YOUR MESSAGE"></textarea>
+                        <p class="messageTip formTip"></p>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center posR" id="clickSub">
+                    <p id="signReturn"></p>
+                    <button type="button" class="btn close posA signBTn">✖️</button>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-lg btn-warning noBorder" id="submit">SEND MESSAGE</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row text-center partFirst">
+            <div class="col-md-4"><span>Copyright © Your Website 2016</span></div>
+            <div class="col-md-4">
+                <span class="faIcon"><a href="#"><i class="fa fa-twitter"></i></a></span>
+                <span class="faIcon"><a href="#"><i class="fa fa-facebook"></i></a></span>
+                <span class="faIcon"><a href="#"><i class="fa fa-linkedin"></i></a></span>
+            </div>
+            <div class="col-md-4"><a href="#">Privacy Policy</a> &nbsp;&nbsp; <a href="#">Terms of Use</a></div>
+        </div>
+    </div>
+</footer>
+
+<!--modal 模态框-->
+<div class="modal fade myModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="container">
+        <button type="button" class="close noBorder" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Close</span></button>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="myModalLabel">PROJECT HEADING</h1>
+                </div>
+                <div class="modal-body">
+                    <p><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+                    <div id="modalImg"></div>
+                    <!--<img id="modalImg" class="img-responsive img-centered"  src="img/portfolio/roundicons-free.png" alt="">-->
+                    <p>
+                        Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                    </p>
+                    <p>
+                        <storng>Want these icons in this portfolio item sample?</storng>You can download 60 of them for free, courtesy of
+                        <a href="" class="modalA">RoundIcons.com</a>, or you can purchase the 1500 icon set
+                        <a href="" class="modalA">here</a>.
+                    </p>
+                    <p><span>Date: July 2014</span>  <span>Client: Round Icons</span>  <span>Category: Graphic Design</span></p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-warning text-uppercase" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Close projct</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="js/startBoostrap.js"></script>
+</body>
+</html>

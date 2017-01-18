@@ -1,0 +1,326 @@
+
+/*unify settings*/
+/*posP:position-relative/absolute*/
+/*.affix-top{background-color: #222;}*/
+.affix{background-color: #222;}
+.container{overflow: hidden;}
+.posR{
+	position: relative;
+}
+.posA{
+	position: absolute;
+}
+.fr:after,.fl:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.colorf{color:#777;}
+.btn,.noBorder{ /* borderNone */
+    border: none;
+    outline: none;
+    }
+section{  /* every section page */
+        padding: 150px 0;
+    }
+.partFirst{ /* first div of every section page */
+        padding-bottom: 50px;
+    }
+
+/*nav settings*/
+.navbar{
+           padding-top: 20px;
+           padding-bottom:5px;
+        }
+.logoC,.logoC:hover{
+    font-size: 22px;
+    color:#fed136;
+		}
+.navbar-nav>li>a{
+    border-radius:4px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: none;
+}
+.nav li:hover>a{
+        background-color: transparent;
+        color: #fed136;
+        }
+.navbar-toggle,.btn{
+        background-color:#fed136 ;
+        color:#fff;
+    }
+.navbar-nav{border-bottom: none;}
+.navbar-nav>li.active>a:active,.navbar-nav>li.active>a:focus{
+    color:#fff;
+    border: none;
+    background-color:transparent;
+}
+.nav>li>a:hover, .nav>li>a:focus{background-color:transparent;}
+.navbar-nav>li.active>a:hover{
+    color:#fff;
+    border: none;
+    background-color:#e8c036;
+}
+.active{
+    border-radius: 4px;
+    background-color:#fed136;
+}
+/*header page settings*/
+.header{
+    background-image: url('../img/bg1.jpg');
+    background-position: 50% 50%;
+    height:750px;
+    position: relative;
+}
+.header-tip{
+    color:#fff;
+    padding-top: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+.jumbotron{background-color: transparent;}
+.jumbA{
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 1.33;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+ /*portfolio page css setting*/
+ #portfolio,#team{
+        background-color:#eee;
+    }
+
+/*portfolio everyone Div include shade  setting*/
+#portfolio .thumbnail{
+    padding:0;
+    padding-bottom:20px;
+    margin-bottom: 0px;
+}
+.thumbnail{
+    border: none;
+}
+.pro-col{
+    max-width: 400px;
+    margin-bottom:30px;
+    border: none;
+}
+.pro-tip{
+    background-color:#fff;
+}
+.pro-tip>h4{margin-top: 0px;}
+.pro-tip>p{padding-bottom: 30px;}
+.glyphicon-plus{ /* +icons settings */
+	top:40%;
+	left:43%;
+	font-size: 48px;
+	color: #fff;
+}
+.pro-shade{ /* evey shade */
+	display: block;
+    max-width: 400px;
+    width: 100%;
+    height: 93%;
+    position: absolute;
+    top:0;
+    background-color: #fed136;
+    opacity: 0;
+}
+/*img hover the shade show*/
+.pro-img:hover a{opacity: 0.9;}
+
+/*About page setting*/
+.dlb>p{
+	width: 350px;
+    display: inline-block;
+}
+#about .img-circle{
+    width: 156px;
+    height: 156px;
+	border-radius: 50%;
+    border: 7px solid #f1f1f1;
+}
+.h4{font-size: 18px;}
+
+/*线的设置*/
+.about-img{padding-bottom: 138px;}
+.about-img:before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left:50%;
+    position: absolute;
+    width: 2px;
+    background-color: #eee;
+    z-index: -1;
+}
+.aboutLastD{
+    left:20px;
+    color:#fff;
+    background-color:#fed136;
+    padding-top:30px;
+    padding-bottom: 0px;
+    margin-bottom: 100px;
+}
+/*about @medio settings*/
+/*there are logos pages settings*/
+.logos{
+    padding: 50px 0;
+}
+
+/*there are Team page settings*/
+#team .img-circle{
+    border-radius: 100%;
+    border: 7px solid #fff;
+}
+/*icon seetings*/
+.faIcon{
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #222;
+    margin-right:10px; 
+}
+.faIcon:hover{
+    background-color: #fed136;
+}
+.fa{
+    color:#fff;
+    font-size: 20px;
+}
+.teamLastD{
+    padding-top:40px;
+}
+
+/*contact page settings*/
+#contact{
+    background-color: #222;
+    background-image: url('../img/map-image.png');
+}
+/*form settings*/
+#name,#tel,#email{
+    height: 60px;
+}
+.formTip{
+    height: 20px;
+    color:red;
+}
+#message{
+    height: 253px;
+    width: 100%;
+    border-radius: 5px;
+}
+#submit{
+    padding: 25px;
+    width: 240px;
+}
+#clickSub{
+    line-height: 30px;
+    color: #a94442;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#signReturn{ background-color: #f2dede; }
+.signBTn{right: 18px;  top: 6px;}
+/*footer settings*/
+.footer .partFirst{
+    padding-top: 30px;
+}
+.footer a{
+    color: #fed136;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration:underline;
+    text-decoration-color: #c3a129;
+}
+
+/*modal settings*/
+.modal-backdrop,.modal{
+    background-color:#fff;
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    text-align: center;
+    border-top: none;
+}
+.close>.glyphicon-remove{
+    font-weight: lighter;
+    font-size: 75px;
+}
+.myModal .row{padding-top: 70px;}
+.myModal p{padding-bottom: 30px;}
+.modalA{
+    color: #fed136;
+    text-decoration: none;
+    display: inline-block;
+}
+.modalA:hover{
+    text-decoration:underline;
+    text-decoration-color: #c3a129;
+}
+
+/*here are @media settings*/
+@media screen and (min-width:992px) and (max-width:1200px){
+    .aboutLastD,.about-wrap .fr{left:12px;}
+    .about-wrap .fl{left:-12px;}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .about-img2{
+        left: 12px;
+        margin-right: 12px;
+    }
+}
+@media screen and (max-width:992px){
+    #about .img-circle{
+        width:80px;
+        height:80px;
+    }
+    .dlb>p{display: block;}
+    .h4{
+        font-size: 12px;
+        line-height: 14px;
+        width: 60px;
+        height: 42px;
+        margin-top: 13px;
+        left:-11px;
+        top: -30px;
+    }
+}
+@media screen and (max-width:768px){
+    /*heder*/
+    .navbar{background-color: #222;}
+    .header {
+        height: 450px;
+    }
+    .header-tip {
+        padding-top: 0px;
+    }
+    .jumbotron{margin-top: -50px;}
+    /*por*/
+    .pro-col{
+        margin: 0 auto 30px;
+    }
+    /*about*/
+    .about-img{float: left;}
+    .about-wrap .col-md-7{
+        text-align: left;
+    }
+    .dlb>p{min-width:240px;width: 100%;}
+    .aboutLastD{padding-top: 0px;}
+    .h4{
+        left:-5px;
+        top: 0px;
+    }
+}
